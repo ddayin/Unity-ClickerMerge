@@ -2,30 +2,22 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Character_TouchHandler : MonoBehaviour
+public class Character_TouchHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    /// <summary>
-    /// 터치 다운일 때의 처리
-    /// </summary>
-    private void OnMouseDown()
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnMouseDown()");
+        Debug.Log("OnBeginDrag");
     }
 
-    /// <summary>
-    /// 터치 다운해서 드래그 중일 떄의 처리
-    /// </summary>
-    private void OnMouseDrag()
+    public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("OnMouseDrag()");
+        Debug.Log("OnDrag");
     }
 
-    /// <summary>
-    /// 터치 업일 때의 처리
-    /// </summary>
-    private void OnMouseUp()
+    public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnMouseUp()");
+        Debug.Log("OnEndDrag");
     }
 }
