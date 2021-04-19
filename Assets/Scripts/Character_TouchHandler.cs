@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Character_TouchHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class Character_TouchHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler,
+    IPointerDownHandler, IPointerUpHandler
 {
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -19,5 +20,15 @@ public class Character_TouchHandler : MonoBehaviour, IBeginDragHandler, IDragHan
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("OnEndDrag");
+    }
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        Debug.Log("OnPointerDown");
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        Debug.Log("OnPointerUp");
     }
 }
