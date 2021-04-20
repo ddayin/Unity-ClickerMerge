@@ -22,7 +22,7 @@ public class Coin : MonoBehaviour
         transform.DOLocalMoveY(2f, effectDuration);
         spriteRenderer.DOFade(0f, effectDuration);
         
-        Invoke("Destroy", effectDuration);
+        Invoke("Destroy", effectDuration + 0.1f);
     }
 
     private void Destroy()
