@@ -41,6 +41,8 @@ public class Character_TouchHandler : MonoBehaviour, IBeginDragHandler, IDragHan
 
     private void ProcessTouch()
     {
+        UITop.instance.AddCoin(1);
+        
         CoinFactory.instance.Create(this.transform.position);
     }
 }
