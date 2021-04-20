@@ -24,7 +24,7 @@ https://ddayin.tistory.com/362
 7. 캐릭터 스프라이트의 Sorting Layer
 https://ddayin.tistory.com/363
 
-8.OnMouseDown() 이벤트 함수
+8. OnMouseDown() 이벤트 함수
 https://ddayin.tistory.com/364
 
 9. Event System
