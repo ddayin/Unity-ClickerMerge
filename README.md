@@ -17,3 +17,19 @@ https://ddayin.tistory.com/361
 https://ddayin.tistory.com/362
 7. 캐릭터 스프라이트의 Sorting Layer
 https://ddayin.tistory.com/363
+8.OnMouseDown() 이벤트 함수
+https://ddayin.tistory.com/364
+9. Event System
+https://ddayin.tistory.com/365
+10. OnPointerUp, OnPointerDown, 이벤트 함수 정리
+https://ddayin.tistory.com/367
+11. 프리팹 생성하기
+https://ddayin.tistory.com/368
+12. Singleton 패턴과 Plugins 폴더
+https://ddayin.tistory.com/370
+13. Factory 패턴과 Instantiate()
+https://ddayin.tistory.com/371
+14. DOTween과 이펙트
+https://ddayin.tistory.com/372
+15. sleepTimeout, orientation, targetFrameRate
+https://ddayin.tistory.com/373
