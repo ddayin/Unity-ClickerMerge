@@ -30,5 +30,8 @@ public class Character_TouchHandler : MonoBehaviour, IBeginDragHandler, IDragHan
     public void OnPointerUp(PointerEventData eventData)
     {
         Debug.Log("OnPointerUp");
+        
+        CoinFactory.instance.Create(this.transform.position);
+        
     }
 }
