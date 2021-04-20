@@ -4,6 +4,8 @@ using UnityEngine.EventSystems;
 public class Character_TouchHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler,
     IPointerDownHandler, IPointerUpHandler
 {
+    
+    #region 유니티 이벤트 함수
     private void Start()
     {
         InvokeRepeating("ProcessTouch", 2f, 2f);
@@ -35,6 +37,7 @@ public class Character_TouchHandler : MonoBehaviour, IBeginDragHandler, IDragHan
         
         ProcessTouch();
     }
+    #endregion
 
     private void ProcessTouch()
     {
