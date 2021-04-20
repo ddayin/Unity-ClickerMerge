@@ -12,7 +12,7 @@ public class CoinFactory : MonoBehaviour
 
     public void Create(Vector3 position)
     {
-        GameObject newCoin = Instantiate(coinPrefab);
+        GameObject newCoin = Instantiate(coinPrefab, this.transform);
         newCoin.transform.position = position;
     }
 }

@@ -32,6 +32,5 @@ public class Character_TouchHandler : MonoBehaviour, IBeginDragHandler, IDragHan
         Debug.Log("OnPointerUp");
         
         CoinFactory.instance.Create(this.transform.position);
-        
     }
 }
